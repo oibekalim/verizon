@@ -1,0 +1,200 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5599841868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Preordering Iphone Scenario",
+        "description": "",
+        "id": "preordering-iphone-feature;preordering-iphone-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 3759319542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4193393728,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to verizon.com",
+            "match": {
+              "location": "Smartphone_Step_Def.go_to_verizon_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1248178833,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hover over phone",
+            "match": {
+              "location": "Smartphone_Step_Def.hover_over_phone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3758828592,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Smartphone",
+            "match": {
+              "location": "Smartphone_Step_Def.click_on_Smartphone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2989646575,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Apple Iphone 11Pro Max",
+            "match": {
+              "location": "Smartphone_Step_Def.Click_on_Apple_Iphone_11Pro_Max()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 650053362,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Gold color",
+            "match": {
+              "location": "Smartphone_Step_Def.click_on_Gold_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312897600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on 256GB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "256",
+                  "offset": 9
+                }
+              ],
+              "location": "Smartphone_Step_Def.click_on_GB(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330080617,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Continue Button",
+            "match": {
+              "location": "Smartphone_Step_Def.click_on_Continue_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134655527,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter zipcode",
+            "match": {
+              "location": "Smartphone_Step_Def.enter_zipcode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273465535,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Confirm Location",
+            "match": {
+              "location": "Smartphone_Step_Def.click_on_Confirm_Location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2113535831,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on New Customer button",
+            "match": {
+              "location": "Smartphone_Step_Def.click_on_New_Customer_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44579320,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify the price",
+            "match": {
+              "location": "Smartphone_Step_Def.verify_the_price()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@preorder"
+          }
+        ]
+      }
+    ],
+    "name": "Preordering Iphone Feature",
+    "description": "",
+    "id": "preordering-iphone-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/features/preorderIphone.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
